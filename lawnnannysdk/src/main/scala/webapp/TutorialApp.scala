@@ -1,8 +1,11 @@
-package tutorial.webapp
+package example
 
-object TutorialApp {
-  def main(args: Array[String]): Unit = {
+import scala.scalajs.js.annotation._
+
+@JSExportTopLevel("HelloWorld")
+object HelloWorld {
+  @JSExport
+  def sayHello(): Unit = {
     println("Hello world!")
-    println("hello")
   }
 }
