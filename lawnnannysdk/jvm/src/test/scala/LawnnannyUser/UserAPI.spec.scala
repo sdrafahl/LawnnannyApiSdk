@@ -2,8 +2,8 @@ package Lawnnanny.User
 
 import org.scalatest.FunSpec
 import org.scalatest._
-import Lawnnanny.User._
-import scala.concurrent.Future
+import Lawnnanny.User.UserAPIImplementation
+import cats.effect.IO
 
 class UserAPISpec extends FunSpec with Matchers   {
     describe("UserAPI") {
@@ -12,10 +12,11 @@ class UserAPISpec extends FunSpec with Matchers   {
             val testUsername = "testUserName"
             val testPassword = "secret"
             val testEmail = "test@mail.com"
+            val userApiImplentation: UserAPIImplementation = implicitly[UserAPIImplementation]
 
-            it("Should return a future") {
-                val returnedPromise = UserAPI.registerUser(testUsername, testPassword, testEmail)
-                assert(false)
+            it("Should return a IO of a string") {
+                val returnedPromise = userApiImplentation.registerUser(testUsername, testPassword, testEmail)
+                assert(returnedPromise.isInstanceOf[IO[_]])
             }
         }
     }

@@ -1,0 +1,4 @@
+[0m[[0m[33mwarn[0m] [0m[0m/home/shane/code/LawnnannyApiSdk/lawnnannysdk/jvm/src/test/scala/LawnnannyUser/UserAPI.spec.scala:5:23: imported `UserAPIImplementation' is permanently hidden by definition of object UserAPIImplementation in package User[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport Lawnnanny.User.UserAPIImplementation[0m
+[0m[[0m[33mwarn[0m] [0m[0m                      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

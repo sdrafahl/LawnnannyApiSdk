@@ -1,12 +1,12 @@
 package example
 
 import scala.scalajs.js.annotation._
-import Lawnnanny.User.UserAPI
+import Lawnnanny.User.UserAPIImplementation
 
 @JSExportTopLevel("HelloWorld")
 object HelloWorld {
   @JSExport
   def sayHello(): String = {
-    UserAPI.sayHello
+    "hello"
   }
 }

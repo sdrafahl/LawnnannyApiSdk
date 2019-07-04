@@ -165,3 +165,150 @@ WARN  no build target: /home/shane/code/LawnnannyApiSdk/lawnnannysdk/project/plu
 WARN  no build target: /home/shane/code/LawnnannyApiSdk/lawnnannysdk/build.sbt
 WARN  no build target: /home/shane/code/LawnnannyApiSdk/lawnnannysdk/project/plugins.sbt
 WARN  no build target: /home/shane/code/LawnnannyApiSdk/lawnnannysdk/build.sbt
+INFO  time: initialize in 0.3s
+WARN  no build tool detected in workspace '/home/shane/code/LawnnannyApiSdk'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /home/shane/code/LawnnannyApiSdk/lawnnannysdk/build.sbt
+WARN  no build target: /home/shane/code/LawnnannyApiSdk/lawnnannysdk/jvm/src/test/scala/LawnnannyUser/UserAPI.spec.scala
+WARN  no build target: /home/shane/code/LawnnannyApiSdk/lawnnannysdk/shared/src/main/scala/LawnnannyUser/UserAPI.scala
+WARN  no build target: /home/shane/code/LawnnannyApiSdk/lawnnannysdk/jvm/src/test/scala/LawnnannyUser/UserAPI.spec.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  no build target: /home/shane/code/LawnnannyApiSdk/lawnnannysdk/build.sbt
+INFO  shutting down Metals
+INFO  time: initialize in 0.28s
+WARN  no build tool detected in workspace '/home/shane/code/LawnnannyApiSdk'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /home/shane/code/LawnnannyApiSdk/lawnnannysdk/build.sbt
+WARN  no build target: /home/shane/code/LawnnannyApiSdk/lawnnannysdk/shared/src/main/scala/LawnnannyUser/UserAPI.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  no build target: /home/shane/code/LawnnannyApiSdk/lawnnannysdk/jvm/src/test/scala/LawnnannyUser/UserAPI.spec.scala
+WARN  no build tool detected in workspace '/home/shane/code/LawnnannyApiSdk'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/home/shane/code/LawnnannyApiSdk'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/home/shane/code/LawnnannyApiSdk'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/home/shane/code/LawnnannyApiSdk'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /home/shane/code/LawnnannyApiSdk/lawnnannysdk/shared/src/main/scala/LawnnannyUser/UserAPI.scala
+Jul 04, 2019 10:12:53 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 163
+WARN  no build target: /home/shane/code/LawnnannyApiSdk/lawnnannysdk/build.sbt
+something's wrong: no file:///home/shane/code/LawnnannyApiSdk/lawnnannysdk/shared/src/main/scala/LawnnannyUser/UserAPI.scala in scala.concurrent.Future[String]RangePosition(file:///home/shane/code/LawnnannyApiSdk/lawnnannysdk/shared/src/main/scala/LawnnannyUser/UserAPI.scala, 288, 288, 302)
+something's wrong: no file:///home/shane/code/LawnnannyApiSdk/lawnnannysdk/shared/src/main/scala/LawnnannyUser/UserAPI.scala in scala.concurrent.Future[String]RangePosition(file:///home/shane/code/LawnnannyApiSdk/lawnnannysdk/shared/src/main/scala/LawnnannyUser/UserAPI.scala, 288, 288, 302)
+WARN  no build tool detected in workspace '/home/shane/code/LawnnannyApiSdk'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/home/shane/code/LawnnannyApiSdk'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /home/shane/code/LawnnannyApiSdk/lawnnannysdk/jvm/src/test/scala/LawnnannyUser/UserAPI.spec.scala
+Jul 04, 2019 10:13:32 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build target: /home/shane/code/LawnnannyApiSdk/lawnnannysdk/shared/src/main/scala/LawnnannyUser/UserAPI.scala
+WARN  no build target: /home/shane/code/LawnnannyApiSdk/lawnnannysdk/shared/src/main/scala/LawnnannyUser/UserAPI.scala
+WARN  no build tool detected in workspace '/home/shane/code/LawnnannyApiSdk'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/home/shane/code/LawnnannyApiSdk'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/home/shane/code/LawnnannyApiSdk'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/home/shane/code/LawnnannyApiSdk'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/home/shane/code/LawnnannyApiSdk'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/home/shane/code/LawnnannyApiSdk'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/home/shane/code/LawnnannyApiSdk'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/home/shane/code/LawnnannyApiSdk'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/home/shane/code/LawnnannyApiSdk'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/home/shane/code/LawnnannyApiSdk'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/home/shane/code/LawnnannyApiSdk'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/home/shane/code/LawnnannyApiSdk'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+Jul 04, 2019 10:14:48 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jul 04, 2019 10:14:48 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: implicit class <error> extends  (of class scala.reflect.internal.Trees$ClassDef)
+scala.MatchError: implicit class <error> extends  (of class scala.reflect.internal.Trees$ClassDef)
+	at scala.tools.nsc.typechecker.Unapplies.constrParamss(Unapplies.scala:64)
+	at scala.tools.nsc.typechecker.Unapplies.factoryMeth(Unapplies.scala:141)
+	at scala.tools.nsc.typechecker.Unapplies.factoryMeth$(Unapplies.scala:138)
+	at scala.meta.internal.pc.MetalsGlobal$$anon$1.factoryMeth(MetalsGlobal.scala:40)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth.enterImplicitWrapper(MethodSynthesis.scala:231)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth.enterImplicitWrapper$(MethodSynthesis.scala:230)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterImplicitWrapper(Namers.scala:58)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer.enterExistingSym(Global.scala:94)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer.enterExistingSym$(Global.scala:80)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$$anon$2.enterExistingSym(Global.scala:51)
+	at scala.tools.nsc.typechecker.Namers$Namer.standardEnterSym(Namers.scala:294)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym(AnalyzerPlugins.scala:461)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym$(AnalyzerPlugins.scala:460)
+	at scala.meta.internal.pc.MetalsGlobal$$anon$1.pluginsEnterSym(MetalsGlobal.scala:40)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterSym(Namers.scala:268)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSym(Typers.scala:1946)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$enterSyms$1(Typers.scala:1941)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSyms(Typers.scala:1941)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:2003)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedModuleDef(Typers.scala:1896)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5647)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5726)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:5790)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3373)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3373)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedPackageDef$1(Typers.scala:5356)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5649)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5726)
+	at scala.tools.nsc.typechecker.Analyzer$typerFactory$TyperPhase.apply(Analyzer.scala:114)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:448)
+	at scala.tools.nsc.interactive.Global$TyperRun.$anonfun$applyPhase$1(Global.scala:1340)
+	at scala.tools.nsc.interactive.Global$TyperRun.applyPhase(Global.scala:1340)
+	at scala.tools.nsc.interactive.Global$TyperRun.typeCheck(Global.scala:1333)
+	at scala.tools.nsc.interactive.Global.typeCheck(Global.scala:665)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:814)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1225)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:356)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+
+WARN  no build tool detected in workspace '/home/shane/code/LawnnannyApiSdk'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/home/shane/code/LawnnannyApiSdk'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /home/shane/code/LawnnannyApiSdk/lawnnannysdk/shared/src/main/scala/LawnnannyUser/UserAPI.scala
+WARN  no build target: /home/shane/code/LawnnannyApiSdk/lawnnannysdk/shared/src/main/scala/LawnnannyUser/UserAPI.scala
+WARN  no build target: /home/shane/code/LawnnannyApiSdk/lawnnannysdk/shared/src/main/scala/LawnnannyUser/UserAPI.scala
+Jul 04, 2019 10:15:30 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jul 04, 2019 10:15:30 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:416)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:105)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+INFO  shutting down Metals
+INFO  time: initialize in 0.28s
+WARN  no build tool detected in workspace '/home/shane/code/LawnnannyApiSdk'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /home/shane/code/LawnnannyApiSdk/lawnnannysdk/jvm/src/test/scala/LawnnannyUser/UserAPI.spec.scala
+WARN  no build target: /home/shane/code/LawnnannyApiSdk/lawnnannysdk/shared/src/main/scala/LawnnannyUser/UserAPI.scala
+INFO  shutting down Metals
+INFO  time: initialize in 0.27s
+WARN  no build tool detected in workspace '/home/shane/code/LawnnannyApiSdk'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /home/shane/code/LawnnannyApiSdk/lawnnannysdk/jvm/src/test/scala/LawnnannyUser/UserAPI.spec.scala
+WARN  no build target: /home/shane/code/LawnnannyApiSdk/lawnnannysdk/shared/src/main/scala/LawnnannyUser/UserAPI.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  no build tool detected in workspace '/home/shane/code/LawnnannyApiSdk'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/home/shane/code/LawnnannyApiSdk'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/home/shane/code/LawnnannyApiSdk'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/home/shane/code/LawnnannyApiSdk'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+Jul 04, 2019 10:16:36 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jul 04, 2019 10:16:36 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:416)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:105)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build tool detected in workspace '/home/shane/code/LawnnannyApiSdk'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/home/shane/code/LawnnannyApiSdk'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/home/shane/code/LawnnannyApiSdk'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/home/shane/code/LawnnannyApiSdk'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /home/shane/code/LawnnannyApiSdk/lawnnannysdk/shared/src/main/scala/LawnnannyUser/UserAPI.scala
+WARN  no build target: /home/shane/code/LawnnannyApiSdk/lawnnannysdk/shared/src/main/scala/LawnnannyUser/UserAPI.scala
+INFO  shutting down Metals

@@ -9,7 +9,7 @@
 		extra-sbtVersion="1.0"
 		conf="compile-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20190703230735"/>
+		date="20190704102151"/>
 	<dependencies>
 		<module organisation="org.scala-js" name="sbt-scalajs">
 			<revision name="0.6.22" status="release" pubdate="20180123225703" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scala-js.org/" extra-scalaVersion="2.12" extra-sbtVersion="1.0" extra-info.apiURL="http://www.scala-js.org/api/sbt-scalajs/0.6.22/" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="1">
@@ -203,7 +203,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-sbt" name="global-plugins">
-			<revision name="0.0" status="integration" pubdate="20190703230732" resolver="inter-project" artresolver="inter-project" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="0">
+			<revision name="0.0" status="integration" pubdate="20190704102148" resolver="inter-project" artresolver="inter-project" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="0">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="default" name="lawnnannysdk-build" conf="compile-internal, compile, provided, optional" rev="0.0" rev-constraint-default="0.0" rev-constraint-dynamic="0.0" callerrev="0.1.0-SNAPSHOT" extra-scalaVersion="2.12" extra-sbtVersion="1.0"/>
 				<artifacts>
