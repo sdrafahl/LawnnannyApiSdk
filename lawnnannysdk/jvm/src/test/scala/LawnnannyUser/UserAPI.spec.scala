@@ -8,7 +8,6 @@ import cats.effect.IO
 class UserAPISpec extends FunSpec with Matchers   {
     describe("UserAPI") {
         describe("registerUser") {
-            println("tests")
             val testUsername = "testUserName"
             val testPassword = "secret"
             val testEmail = "test@mail.com"
