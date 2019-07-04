@@ -1,6 +1,25 @@
-enablePlugins(ScalaJSPlugin)
+name := "Foo root project"
 
-name := "Scala.js Tutorial"
-scalaVersion := "2.12.8"
+scalaVersion in ThisBuild := "2.12.4"
 
-scalaJSLinkerConfig ~= { _.withModuleKind(ModuleKind.ESModule) }
+lazy val root = project.in(file(".")).
+  aggregate(fooJS, fooJVM).
+  settings(
+    publish := {},
+    publishLocal := {}
+  )
+
+lazy val foo = crossProject.in(file(".")).
+  settings(
+    name := "foo",
+    version := "0.1-SNAPSHOT"
+  ).
+  jvmSettings(
+    libraryDependencies += "org.scalactic" %% "scalactic" % "3.0.0",
+    libraryDependencies +=  "org.scalatest" %% "scalatest" % "3.0.8" % "test"
+  ).
+  jsSettings(
+  )
+
+lazy val fooJVM = foo.jvm
+lazy val fooJS = foo.js
