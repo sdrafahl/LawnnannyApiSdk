@@ -8,8 +8,7 @@
             "/home/shane/code/LawnnannyApiSdk/lawnnannysdk/project/src/main/scala",
             "/home/shane/code/LawnnannyApiSdk/lawnnannysdk/project/src/main/java",
             "/home/shane/code/LawnnannyApiSdk/lawnnannysdk/project/src/main/scala-sbt-1.0",
-            "/home/shane/code/LawnnannyApiSdk/lawnnannysdk/project/target/scala-2.12/sbt-1.0/src_managed/main",
-            "/home/shane/code/LawnnannyApiSdk/lawnnannysdk/project/Dependencies.scala"
+            "/home/shane/code/LawnnannyApiSdk/lawnnannysdk/project/target/scala-2.12/sbt-1.0/src_managed/main"
         ],
         "dependencies" : [
         ],
@@ -29,6 +28,9 @@
             "/home/shane/.ivy2/cache/org.spire-math/jawn-parser_2.12/jars/jawn-parser_2.12-0.11.1.jar",
             "/home/shane/.ivy2/cache/io.circe/circe-derivation_2.12/jars/circe-derivation_2.12-0.9.0-M3.jar",
             "/home/shane/.ivy2/cache/scala_2.12/sbt_1.0/org.scalameta/sbt-metals/jars/sbt-metals-0.7.0.jar",
+            "/home/shane/.ivy2/cache/scala_2.12/sbt_1.0/org.portable-scala/sbt-scalajs-crossproject/jars/sbt-scalajs-crossproject-0.6.1.jar",
+            "/home/shane/.ivy2/cache/scala_2.12/sbt_1.0/org.portable-scala/sbt-crossproject/jars/sbt-crossproject-0.6.1.jar",
+            "/home/shane/.ivy2/cache/scala_2.12/sbt_1.0/org.portable-scala/sbt-platform-deps/jars/sbt-platform-deps-1.0.0.jar",
             "/home/shane/.ivy2/cache/scala_2.12/sbt_1.0/org.scala-js/sbt-scalajs/jars/sbt-scalajs-0.6.28.jar",
             "/home/shane/.ivy2/cache/org.scala-js/scalajs-tools_2.12/jars/scalajs-tools_2.12-0.6.28.jar",
             "/home/shane/.ivy2/cache/org.scala-js/scalajs-ir_2.12/jars/scalajs-ir_2.12-0.6.28.jar",
@@ -49,7 +51,11 @@
             "/home/shane/.ivy2/cache/org.webjars/envjs/jars/envjs-1.2.jar",
             "/home/shane/.ivy2/cache/org.scala-js/scalajs-sbt-test-adapter_2.12/jars/scalajs-sbt-test-adapter_2.12-0.6.28.jar",
             "/home/shane/.ivy2/cache/org.scala-sbt/test-interface/jars/test-interface-1.0.jar",
-            "/home/shane/.ivy2/cache/scala_2.12/sbt_1.0/org.portable-scala/sbt-platform-deps/jars/sbt-platform-deps-1.0.0.jar",
+            "/home/shane/.ivy2/cache/scala_2.12/sbt_1.0/org.portable-scala/sbt-scala-native-crossproject/jars/sbt-scala-native-crossproject-0.6.1.jar",
+            "/home/shane/.ivy2/cache/scala_2.12/sbt_1.0/org.scala-native/sbt-scala-native/jars/sbt-scala-native-0.3.7.jar",
+            "/home/shane/.ivy2/cache/org.scala-native/tools_2.12/jars/tools_2.12-0.3.7.jar",
+            "/home/shane/.ivy2/cache/org.scala-native/nir_2.12/jars/nir_2.12-0.3.7.jar",
+            "/home/shane/.ivy2/cache/org.scala-native/util_2.12/jars/util_2.12-0.3.7.jar",
             "/home/shane/.ivy2/cache/org.scala-sbt/sbt/jars/sbt-1.2.8.jar",
             "/home/shane/.ivy2/cache/org.scala-sbt/main_2.12/jars/main_2.12-1.2.8.jar",
             "/home/shane/.ivy2/cache/org.scala-sbt/logic_2.12/jars/logic_2.12-1.2.8.jar",
@@ -168,8 +174,8 @@
                 "import _root_.scala.xml.{TopScope=>$scope}",
                 "import _root_.sbt._",
                 "import _root_.sbt.Keys._",
-                "import _root_.sbt.ScriptedPlugin.autoImport._, _root_.bloop.integrations.sbt.BloopPlugin.autoImport._, _root_.org.scalajs.jsdependencies.sbtplugin.JSDependenciesPlugin.autoImport._, _root_.org.scalajs.sbtplugin.ScalaJSPlugin.autoImport._, _root_.org.portablescala.sbtplatformdeps.PlatformDepsPlugin.autoImport._",
-                "import _root_.sbt.plugins.IvyPlugin, _root_.sbt.plugins.JvmPlugin, _root_.sbt.plugins.CorePlugin, _root_.sbt.ScriptedPlugin, _root_.sbt.plugins.SbtPlugin, _root_.sbt.plugins.JUnitXmlReportPlugin, _root_.sbt.plugins.Giter8TemplatePlugin, _root_.bloop.integrations.sbt.BloopPlugin, _root_.scala.meta.metals.MetalsPlugin, _root_.org.scalajs.jsdependencies.sbtplugin.JSDependenciesPlugin, _root_.org.scalajs.sbtplugin.ScalaJSJUnitPlugin, _root_.org.scalajs.sbtplugin.ScalaJSPlugin, _root_.org.scalajs.sbtplugin.internal.ScalaJSGlobalPlugin, _root_.org.portablescala.sbtplatformdeps.PlatformDepsPlugin"
+                "import _root_.sbt.ScriptedPlugin.autoImport._, _root_.bloop.integrations.sbt.BloopPlugin.autoImport._, _root_.scalajscrossproject.ScalaJSCrossPlugin.autoImport._, _root_.sbtcrossproject.CrossPlugin.autoImport._, _root_.org.portablescala.sbtplatformdeps.PlatformDepsPlugin.autoImport._, _root_.org.scalajs.jsdependencies.sbtplugin.JSDependenciesPlugin.autoImport._, _root_.org.scalajs.sbtplugin.ScalaJSPlugin.autoImport._, _root_.scalanativecrossproject.ScalaNativeCrossPlugin.autoImport._, _root_.scala.scalanative.sbtplugin.ScalaNativePlugin.autoImport._",
+                "import _root_.sbt.plugins.IvyPlugin, _root_.sbt.plugins.JvmPlugin, _root_.sbt.plugins.CorePlugin, _root_.sbt.ScriptedPlugin, _root_.sbt.plugins.SbtPlugin, _root_.sbt.plugins.JUnitXmlReportPlugin, _root_.sbt.plugins.Giter8TemplatePlugin, _root_.bloop.integrations.sbt.BloopPlugin, _root_.scala.meta.metals.MetalsPlugin, _root_.scalajscrossproject.ScalaJSCrossPlugin, _root_.sbtcrossproject.CrossPlugin, _root_.org.portablescala.sbtplatformdeps.PlatformDepsPlugin, _root_.org.scalajs.jsdependencies.sbtplugin.JSDependenciesPlugin, _root_.org.scalajs.sbtplugin.ScalaJSJUnitPlugin, _root_.org.scalajs.sbtplugin.ScalaJSPlugin, _root_.org.scalajs.sbtplugin.internal.ScalaJSGlobalPlugin, _root_.scalanativecrossproject.ScalaNativeCrossPlugin, _root_.scala.scalanative.sbtplugin.ScalaNativePlugin"
             ]
         },
         "test" : {
@@ -383,6 +389,94 @@
                         {
                             "name" : "sbt-metals",
                             "path" : "/home/shane/.ivy2/cache/scala_2.12/sbt_1.0/org.scalameta/sbt-metals/jars/sbt-metals-0.7.0.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.portable-scala",
+                    "name" : "sbt-scalajs-crossproject",
+                    "version" : "0.6.1",
+                    "artifacts" : [
+                        {
+                            "name" : "sbt-scalajs-crossproject",
+                            "path" : "/home/shane/.ivy2/cache/scala_2.12/sbt_1.0/org.portable-scala/sbt-scalajs-crossproject/jars/sbt-scalajs-crossproject-0.6.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.portable-scala",
+                    "name" : "sbt-crossproject",
+                    "version" : "0.6.1",
+                    "artifacts" : [
+                        {
+                            "name" : "sbt-crossproject",
+                            "path" : "/home/shane/.ivy2/cache/scala_2.12/sbt_1.0/org.portable-scala/sbt-crossproject/jars/sbt-crossproject-0.6.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.portable-scala",
+                    "name" : "sbt-platform-deps",
+                    "version" : "1.0.0",
+                    "artifacts" : [
+                        {
+                            "name" : "sbt-platform-deps",
+                            "path" : "/home/shane/.ivy2/cache/scala_2.12/sbt_1.0/org.portable-scala/sbt-platform-deps/jars/sbt-platform-deps-1.0.0.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.portable-scala",
+                    "name" : "sbt-scala-native-crossproject",
+                    "version" : "0.6.1",
+                    "artifacts" : [
+                        {
+                            "name" : "sbt-scala-native-crossproject",
+                            "path" : "/home/shane/.ivy2/cache/scala_2.12/sbt_1.0/org.portable-scala/sbt-scala-native-crossproject/jars/sbt-scala-native-crossproject-0.6.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-native",
+                    "name" : "sbt-scala-native",
+                    "version" : "0.3.7",
+                    "artifacts" : [
+                        {
+                            "name" : "sbt-scala-native",
+                            "path" : "/home/shane/.ivy2/cache/scala_2.12/sbt_1.0/org.scala-native/sbt-scala-native/jars/sbt-scala-native-0.3.7.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-native",
+                    "name" : "tools_2.12",
+                    "version" : "0.3.7",
+                    "artifacts" : [
+                        {
+                            "name" : "tools_2.12",
+                            "path" : "/home/shane/.ivy2/cache/org.scala-native/tools_2.12/jars/tools_2.12-0.3.7.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-native",
+                    "name" : "nir_2.12",
+                    "version" : "0.3.7",
+                    "artifacts" : [
+                        {
+                            "name" : "nir_2.12",
+                            "path" : "/home/shane/.ivy2/cache/org.scala-native/nir_2.12/jars/nir_2.12-0.3.7.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-native",
+                    "name" : "util_2.12",
+                    "version" : "0.3.7",
+                    "artifacts" : [
+                        {
+                            "name" : "util_2.12",
+                            "path" : "/home/shane/.ivy2/cache/org.scala-native/util_2.12/jars/util_2.12-0.3.7.jar"
                         }
                     ]
                 },
@@ -603,17 +697,6 @@
                         {
                             "name" : "test-interface",
                             "path" : "/home/shane/.ivy2/cache/org.scala-sbt/test-interface/jars/test-interface-1.0.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization" : "org.portable-scala",
-                    "name" : "sbt-platform-deps",
-                    "version" : "1.0.0",
-                    "artifacts" : [
-                        {
-                            "name" : "sbt-platform-deps",
-                            "path" : "/home/shane/.ivy2/cache/scala_2.12/sbt_1.0/org.portable-scala/sbt-platform-deps/jars/sbt-platform-deps-1.0.0.jar"
                         }
                     ]
                 },
