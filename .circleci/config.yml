@@ -47,6 +47,7 @@ jobs:
           command: |
             cd lawnnannysdk
             sbt fullOptJS
+            mv ./root/js/target/scala-2.12/root-opt.js ./lawnnannysdk.js
       - run:
           name: Publish SDK
           command: |

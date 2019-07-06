@@ -1,5 +1,5 @@
 {
-  "name": "@lawnnanny/root-opt",
+  "name": "@lawnnanny/lawnnannysdk",
   "version": "1.0.0",
   "description": "javascript SDK for Lawnnanny",
   "main": "index.js",
