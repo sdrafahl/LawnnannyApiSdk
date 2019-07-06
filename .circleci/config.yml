@@ -57,3 +57,8 @@ jobs:
           name: Publish SDK
           command: |
             npm publish
+workflows:
+    version: 2
+    buildAndDeploy:
+        jobs:
+            - BuildAndDeployLawnnannySDK
