@@ -33,7 +33,7 @@ class UserAPISpec extends FunSpec with Matchers with MockFactory   {
                 .returning(fakeResponse)
 
             it("Should make a call to the registration API") {
-                val returnedPromise = userApiImplentation.registerUser(testUsername, testPassword, testEmail)
+                val returnedPromise = userApiImplentation.registerUser[IO](testUsername, testPassword, testEmail)
                 assert(testBodyString == returnedPromise.unsafeRunSync())
             }
         }

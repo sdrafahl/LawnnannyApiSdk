@@ -9,6 +9,6 @@ import cats.effect.IO
 object LawnnannySDK {
   @JSExport
   def registerUser(username: String, password: String, email: String)(implicit userAPIImplementation: UserAPIImplementation): IO[String] = {
-    userAPIImplementation.registerUser(username, password, email)
+    userAPIImplementation.registerUser[IO](username, password, email)
   }
 }
