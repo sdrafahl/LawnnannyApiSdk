@@ -3,7 +3,6 @@ orbs:
   aws-cli: circleci/aws-cli@0.1.9
 jobs:
   BuildAndDeployLawnnannySDK:
-    working_directory: /lawnnannysdk
     docker:
       - image: circleci/build-image:ubuntu-14.04-XXL-upstart-1189-5614f37
     environment:
@@ -56,6 +55,7 @@ jobs:
       - run:
           name: Publish SDK
           command: |
+            cd lawnnannysdk
             npm publish
 workflows:
     version: 2
