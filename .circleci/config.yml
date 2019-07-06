@@ -1,0 +1,59 @@
+version: 2.1
+orbs:
+  aws-cli: circleci/aws-cli@0.1.9
+jobs:
+  BuildAndDeployLawnnannySDK:
+    working_directory: /lawnnannysdk
+    docker:
+      - image: circleci/build-image:ubuntu-14.04-XXL-upstart-1189-5614f37
+    environment:
+      JVM_OPTS: -Xmx3200m
+      TERM: dumb
+    steps:  
+      - checkout
+      - run:
+          name: Install Dependencies
+          command: |
+            apt-get update
+            apt-get install openjdk-8-jdk
+            java -version
+            wget http://apt.typesafe.com/repo-deb-build-0002.deb
+            dpkg -i sbt-0.13.9.deb
+            apt-get update
+            apt-get install sbt
+            apt install nodejs
+            nodejs --version
+            apt install npm
+            npm --version
+            apk add --no-cache \
+                  py-pip=9.0.0-r1
+              pip install \
+                  docker-compose==1.12.0 \
+                  awscli==1.16.113
+      - run:
+          name: Configure AWS Credentials
+          command: |
+            aws configure set aws_access_key_id $adminAccessKey
+            aws configure set aws_secret_access_key $adminSecretAccessKey
+            aws configure set default.region us-east-1
+      - run:
+          name: Get Access Token To Publish Package To Github
+          command: |
+            cd lawnnannysdk
+            githubAccessToken=$(aws ssm get-parameters --names CircleCIAccessKey --query "Parameters[0].Value" --output text)
+            npmrc=$(echo .npmrc | sed 's/PERSONAL-ACCESS-TOKEN/${githubAccessToken}')
+            touch ${npmrc} > .npmrc
+      - run:
+          name: Run Tests
+          command: |
+            cd lawnnannysdk
+            sbt test 
+      - run:
+          name: Generate ES Module
+          command: |
+            cd lawnnannysdk
+            sbt fullOptJS
+      - run:
+          name: Publish SDK
+          command: |
+            npm publish

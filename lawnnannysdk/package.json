@@ -1,0 +1,19 @@
+{
+  "name": "@lawnnanny/root-opt",
+  "version": "1.0.0",
+  "description": "javascript SDK for Lawnnanny",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lawnnanny/LawnnannyApiSdk.git"
+  },
+  "author": "Shane Drafahl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lawnnanny/LawnnannyApiSdk/issues"
+  },
+  "homepage": "https://github.com/lawnnanny/LawnnannyApiSdk#readme"
+}
