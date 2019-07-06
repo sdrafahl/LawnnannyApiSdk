@@ -37,7 +37,7 @@ jobs:
             githubAccessToken=$(aws ssm get-parameters --names CircleCIAccessKey --query "Parameters[0].Value" --output text)
             npmrc=$(sed 's/PERSONAL-ACCESS-TOKEN/${githubAccessToken}/' .npmrc)
             echo ${npmrc} > .npmrc
-            echo .npmrc
+            echo ./.npmrc
       - run:
           name: Run Tests
           command: |
