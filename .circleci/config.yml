@@ -35,7 +35,7 @@ jobs:
           command: |
             cd lawnnannysdk
             githubAccessToken=$(aws ssm get-parameters --names CircleCIAccessKey --query "Parameters[0].Value" --output text)
-            npmrc=$(sed 's/PERSONAL-ACCESS-TOKEN/${githubAccessToken}/' .npmrc)
+            npmrc=$(sed 's/PERSONAL-ACCESS-TOKEN/"$githubAccessToken"/' .npmrc)
             echo ${npmrc} > .npmrc
             cat .npmrc
       - run:
