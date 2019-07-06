@@ -10,13 +10,12 @@ val sharedSettings = Seq(
   libraryDependencies +=  "org.scalatest" %% "scalatest" % "3.0.8" % "test",
 )
 
-lazy val bar =
+lazy val root =
   crossProject(JSPlatform, JVMPlatform)
     .crossType(CrossType.Full)
     .settings(sharedSettings)
     .jsSettings()
-    .jvmSettings(
-    )
+    .jvmSettings()
 
-lazy val barJS     = bar.js
-lazy val barJVM    = bar.jvm
+lazy val rootJS     = root.js
+lazy val rootJVM    = root.jvm
