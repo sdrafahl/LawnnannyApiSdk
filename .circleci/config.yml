@@ -41,7 +41,7 @@ jobs:
           name: Run Tests
           command: |
             cd lawnnannysdk
-            sbt test 
+            sbt rootJVM/test
       - run:
           name: Generate ES Module
           command: |
